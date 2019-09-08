@@ -51,6 +51,7 @@ group :development do
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'annotate'
+  gem 'rails_best_practices'
 end
 
 group :test do

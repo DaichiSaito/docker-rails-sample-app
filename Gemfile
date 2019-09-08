@@ -48,6 +48,9 @@ group :development do
   gem 'overcommit'
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'pry-byebug'
+  gem 'pry-rails'
+  gem 'annotate'
 end
 
 group :test do

@@ -100,6 +100,8 @@ GEM
     nio4r (2.5.1)
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
+    overcommit (0.22.0)
+      childprocess (>= 0.5.1)
     parallel (1.17.0)
     parser (2.6.4.0)
       ast (~> 2.4.0)
@@ -203,6 +205,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   mysql2 (>= 0.4.4, < 0.6.0)
+  overcommit
   puma (~> 3.11)
   rails (~> 5.2.3)
   rubocop
